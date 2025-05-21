@@ -1,8 +1,5 @@
 function hobbies (hobbyOne, hobbyTwo, hobbyThree) {
-    return ["Calcio", "SerieTV", "Videogiochi"]
+    return [hobbyOne, hobbyTwo, hobbyThree]
 }
 
-const hobby = hobbies()
-console.log(hobby);
-
-export {hobbies}
+export default hobbies

@@ -1,15 +1,15 @@
-import { names } from "./names.js";
-import { hobbies } from "./hobbies.js";
+import names from "./names.js";
+import hobbies from "./hobbies.js";
 
-function author() {
-    const fullName = names()
-    const fullHobbies = hobbies()
+function person() {
+  const name = names("Francesco", "Moretti")
+  const hobby = hobbies("Calcio", "SerieTV", "Videogiochi")
   return {
-    fullName,
-    fullHobbies
+    fullName: name,
+    hobbies: hobby,
   };
 }
 
-console.log(author());
-export { author }
+
+export default person;
 

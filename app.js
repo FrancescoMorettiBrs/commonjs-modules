@@ -1,3 +1,3 @@
-import { author } from "./people.js";
+import person from "./people.js";
 
-console.log(author());
+console.log(person());

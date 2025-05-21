@@ -1,11 +1,8 @@
 function names (firstName, lastName) {
     return {
-        firstName: "Francesco",
-        lastName: "Moretti"
+        firstName: firstName,
+        lastName: lastName
     }
 }
 
-const persona = names()
-console.log(persona);
-
-export {names}
+export default names
